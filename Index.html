@@ -10,8 +10,8 @@
 
     <title>Wordcamp Austin</title>
   </head>
-  <body><nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <div class="container">
+  <body id="home" data-spy="scroll" data-target=".navbar"><nav class= "navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
     <a class="navbar-brand order-1 mr-0" href="#" target="_blank">Presented by NVC</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -72,7 +72,7 @@
   <div class="row">
     <div class="col-lg order-lg-2">
       1 of 3: About WordCamp
-      <h3 class="mb-4">About WordCamp</h3>
+      <h3 id="about" class="mb-4">About WordCamp</h3>
       <img class="img-fluid rounded" src="images/austin.jpg" alt="Photo of Austin, TX">
 <p>The beautiful city of Austin, TX will be the host city for WordCamp!</p>
 <p>Explore the future of WordPress with a lineup of industry professionals. Discover new techniques to advance your career as a web designer.</p>
@@ -105,7 +105,7 @@
 <h2 id="speakers" class="display-4 text-center my-5 text-muted">Speakers</h2>
 <div class="row">
   <div class="col-md-6 col-lg-4"><div class="card mb-3">
-  <img class="card-img-top" src="https://via.placeholder.com/800x450.png" alt="Speaker Name">
+  <img class="card-img-top" src="images/reed.jpg" alt="Speaker Name">
   <div class="card-body">
     <h4 class="card-title">Dr. Cassie Reed</h4>
     <p class="card-text">Dr. Cassie Reed is a visionary in the realm of tech innovation, with over two decades of experience in researching and implementing cutting-edge technologies. Her expertise lies in harnessing the power of artificial intelligence and machine learning to revolutionize industries. As a sought-after keynote speaker, Dr. Reed has inspired countless professionals to embrace the future of technology and leverage it for maximum impact.</p>
@@ -113,7 +113,7 @@
 </div>
   </div>
   <div class="col-md-6 col-lg-4"><div class="card mb-3">
-  <img class="card-img-top" src="https://via.placeholder.com/800x450.png" alt="Speaker Name">
+  <img class="card-img-top" src="images/wu.jpg" alt="Speaker Name">
   <div class="card-body">
     <h4 class="card-title">Yasmine Wu</h4>
     <p class="card-text">Yasmine Wu is a digital marketing maven renowned for her strategic prowess and innovative approaches to driving growth. With a diverse background spanning startups to Fortune 500 companies, Maxine has mastered the art of crafting compelling brand stories and executing high-impact marketing campaigns. Her insights into consumer behavior and emerging trends make her a trusted advisor for businesses looking to stay ahead in the ever-evolving digital landscape.</p>
@@ -121,7 +121,7 @@
 </div>
   </div>
   <div class="col-md-6 col-lg-4"><div class="card mb-3">
-  <img class="card-img-top" src="https://via.placeholder.com/800x450.png" alt="Speaker Name">
+  <img class="card-img-top" src="images/knight.jpg" alt="Speaker Name">
   <div class="card-body">
     <h4 class="card-title">Jason Knight</h4>
     <p class="card-text">Jason Knight is a seasoned branding guru with a flair for creative storytelling and brand identity development. With a portfolio boasting globally recognized brands, Jonathan has a proven track record of transforming businesses through strategic branding initiatives. From crafting memorable logos to designing immersive brand experiences, his innovative approach to branding has earned him accolades from peers and clients alike.</p>
@@ -129,7 +129,7 @@
 </div>
   </div>
   <div class="col-md-6 col-lg-4"><div class="card mb-3">
-  <img class="card-img-top" src="https://via.placeholder.com/800x450.png" alt="Speaker Name">
+  <img class="card-img-top" src="images/nguyen.jpg" alt="Speaker Name">
   <div class="card-body">
     <h4 class="card-title">Dr. Ethan Nguyen</h4>
     <p class="card-text">Dr. Ethan Nguyen is a leading authority in the field of artificial intelligence and machine learning, with a focus on their practical applications in various industries. With a Ph.D. in Computer Science and numerous publications to his name, Dr. Nguyen brings a wealth of knowledge and expertise to the table. From predictive analytics to natural language processing, his research has paved the way for groundbreaking advancements in AI technology.</p>
@@ -137,7 +137,7 @@
 </div>
   </div>
   <div class="col-md-6 col-lg-4"><div class="card mb-3">
-  <img class="card-img-top" src="https://via.placeholder.com/800x450.png" alt="Speaker Name">
+  <img class="card-img-top" src="images/patel.jpg" alt="Speaker Name">
   <div class="card-body">
     <h4 class="card-title">Sarah Patel</h4>
     <p class="card-text">Sarah Patel is a forward-thinking digital strategist known for her ability to anticipate market trends and devise innovative strategies that drive results. With a keen eye for emerging technologies and consumer behaviors, Sarah helps businesses navigate the digital landscape with confidence. Whether it's harnessing the power of social media or leveraging data-driven insights, her holistic approach to digital strategy sets her apart as a trusted advisor in the industry.</p>
@@ -145,7 +145,7 @@
 </div>
   </div>
   <div class="col-md-6 col-lg-4"><div class="card mb-3">
-  <img class="card-img-top" src="https://via.placeholder.com/800x450.png" alt="Speaker Name">
+  <img class="card-img-top" src="images/thompson.jpg" alt="Speaker Name">
   <div class="card-body">
     <h4 class="card-title">Marcus Thompson</h4>
     <p class="card-text">Marcus Thompson is a dynamic brand consultant and podcast host dedicated to helping businesses create meaningful connections with their audience. With a background in psychology and design, Marcus brings a unique perspective to brand development, focusing on the emotional resonance and authenticity that resonates with consumers. His collaborative approach and innovative solutions have earned him recognition as a thought leader in the realm of brand experience design.</p>
@@ -164,7 +164,6 @@
     <p class="mb-1">Dr. Cassie Reed</p>
   </li>
 </ul>
-  
     <li class="list-group-item">
     <div class="d-flex justify-content-between">
       <h5 class="mb-1">Wordpress Made Easy with AI</h5>
@@ -176,14 +175,12 @@
       <h5 class="mb-1">Maggiano's San Antonio</h5>
       <span class="badge badge-pill badge-secondary p-2">11:00am</span>
     </div>
-      </div>
-      <p class="mb-1">Free Lunch</p>
+    <p class="mb-1">Free Lunch</p>
     <li class="list-group-item">
     <div class="d-flex justify-content-between">
       <h5 class="mb-1">Creative storytelling & Brand Identity</h5>
       <span class="badge badge-pill badge-secondary p-2">1:00pm</span>
     </div>
-       </div>
     <p class="mb-1">Yasmine Wu</p>
     <li class="list-group-item">
     <div class="d-flex justify-content-between">
