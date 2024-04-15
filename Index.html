@@ -40,9 +40,30 @@
     <h1 class="display-4">Wordcamp Austin</h1>
     <p class="lead">A One-day Conference About WordPress</p>
     <div class="mt-5">
-  <button type="button" class="btn btn-secondary btn-lg">Register Now</button>
+  <button type="button" data-toggle="modal" data-target="#register" class="btn btn-secondary btn-lg">Register Now</button> <data-toggle="modal" data-target="#register">
   <a class="btn btn-light btn-lg" href="#speakers">See Speakers</a>
 </div>
+  </div>
+</div>
+<div class="container">
+<!-- Modal -->
+<div class="modal fade" id="register" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="registertitle">Register for WordCamp Conference</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
   </div>
 </div>
 <!-- /jumbotron -->
@@ -52,7 +73,7 @@
     <div class="col-lg order-lg-2">
       1 of 3: About WordCamp
       <h3 class="mb-4">About WordCamp</h3>
-      <img class="img-fluid rounded"img src="https://via.placeholder.com/1024x436.png" alt="Photo of San Antonio, TX">
+      <img class="img-fluid rounded" src="images/austin.jpg" alt="Photo of Austin, TX">
 <p>The beautiful city of Austin, TX will be the host city for WordCamp!</p>
 <p>Explore the future of WordPress with a lineup of industry professionals. Discover new techniques to advance your career as a web designer.</p>
     </div>
@@ -132,59 +153,63 @@
 </div>
   </div>
 </div>
-<!-- /speakers -->
-
 <!-- schedule -->
 <h2 id="schedule" class="display-4 text-center my-5 text-muted">Schedule</h2>
 <ul class="list-group">
   <li class="list-group-item">
     <div class="d-flex justify-content-between">
-      <h5 class="mb-1">Keynote: Tech Innovation Specialist</h5>
+      <h5 class="mb-1">Keynote: WordPress 5.0</h5>
       <span class="badge badge-pill badge-secondary p-2">9:00am</span>
     </div>
     <p class="mb-1">Dr. Cassie Reed</p>
-    <li class="list-group-item">
-    <div class="d-flex justify-content-between">
-      <h5 class="mb-1">Digital Marketing Growth Strategies</h5>
-      <span class="badge badge-pill badge-secondary p-2">9:00am</span>
-    </div>
-    <p class="mb-1">Yasmine Wu</p>
+  </li>
+</ul>
+  
     <li class="list-group-item">
     <div class="d-flex justify-content-between">
       <h5 class="mb-1">Wordpress Made Easy with AI</h5>
-      <span class="badge badge-pill badge-secondary p-2">9:00am</span>
+      <span class="badge badge-pill badge-secondary p-2">10:00am</span>
     </div>
     <p class="mb-1">Dr. Ethan Nguyen</p>
     <li class="list-group-item">
     <div class="d-flex justify-content-between">
       <h5 class="mb-1">Maggiano's San Antonio</h5>
-      <span class="badge badge-pill badge-secondary p-2">9:00am</span>
+      <span class="badge badge-pill badge-secondary p-2">11:00am</span>
     </div>
-    <p class="mb-1">Lunch</p>
+      </div>
+      <p class="mb-1">Free Lunch</p>
     <li class="list-group-item">
     <div class="d-flex justify-content-between">
       <h5 class="mb-1">Creative storytelling & Brand Identity</h5>
-      <span class="badge badge-pill badge-secondary p-2">9:00am</span>
+      <span class="badge badge-pill badge-secondary p-2">1:00pm</span>
     </div>
        </div>
-    <p class="mb-1">Jason Knight</p>
+    <p class="mb-1">Yasmine Wu</p>
+    <li class="list-group-item">
+    <div class="d-flex justify-content-between">
+      <h5 class="mb-1">Immersive Brand experiences</h5>
+      <span class="badge badge-pill badge-secondary p-2">2:00pm</span>
+    </div>
+      <p class="mb-1">Jason Knight</p>
     <li class="list-group-item">
     <div class="d-flex justify-content-between">
       <h5 class="mb-1">Creating a memorable Brand </h5>
-      <span class="badge badge-pill badge-secondary p-2">9:00am</span>
+      <span class="badge badge-pill badge-secondary p-2">3:00pm</span>
     </div>
     <p class="mb-1">Marcus Thompson</p>
     <li class="list-group-item">
     <div class="d-flex justify-content-between">
       <h5 class="mb-1">Social Media Optimization</h5>
-      <span class="badge badge-pill badge-secondary p-2">9:00am</span>
+      <span class="badge badge-pill badge-secondary p-2">4:00pm</span>
     </div>
     <p class="mb-1">Sarah Patel</p>
-
+    <li class="list-group-item">
+    </div>
   </li>
 </ul>
 <!-- /schedule -->
-<div class="d-block text-center mx-auto my-5"><button type="button"class="btn btn-secondary btn-md" >Don't Miss Out, Register Now</button><!-- signup form -->
+<div class="d-block text-center mx-auto my-5"><button type="button" data-toggle="modal" data-target="#register" class="btn btn-secondary btn-md">Don't Miss Out, Register Now</button>
+<!-- signup form -->
 <hr>
 <div class="row py-4 text-muted">
   <div class="col-md col-xl-5">
