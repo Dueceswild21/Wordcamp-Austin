@@ -50,15 +50,133 @@
 <div class="modal fade" id="register" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="registertitle">Register for WordCamp Conference</h5>
+      <div class="modal-header"> 
+        <h4 class="modal-title" id="registertitle">Register for WordCamp</h4>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
       <div class="modal-body">
-        ...
-      </div>
+
+      <form>
+      <h5 class="modal-title" id="basicinfotitle">Basic Information</h5>
+      <div class="form-group">
+      <div class="alert alert-warning alert-dismissible fade show" role="alert">
+  <strong>Hurry!</strong> Early bird registration ends in two days.
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+
+    <label for="formnameInput">Name:</label>
+    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="fullname">
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlInput1">Email:</label>
+    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlSelect1">Job role:</label>
+    <select class="form-control" id="exampleFormControlSelect1">
+      <option>WordPress Developer</option>
+      <option>Marketing Assistant</option>
+      <option>Tech</option>
+      <option>Podcaster</option>
+      <option>Brand Consultant</option>
+    </select>
+  </div>
+       </div>
+       <div class="modal-body">
+       <form>
+       <h5 class="modal-title" id="basicinfotitle">Which Topics most interest you?</h5>
+       <div class="form-group">
+
+  </div>
+  <div class="form-check">
+  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+  <label class="form-check-label" for="defaultCheck1">
+    Wordpress Press & AI
+  </label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+  <label class="form-check-label" for="defaultCheck1">
+    Branding
+  </label>
+</div>
+     <div class="form-check">
+  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+  <label class="form-check-label" for="defaultCheck1">
+    Social Media Optimization
+  </label>
+</div>
+ </div>
+       <div class="modal-body">
+       <form>
+       <h5 class="modal-title" id="basicinfotitle">Payment Info</h5>
+       <div class="form-group">
+</div>
+  </label>
+  <form>
+  <div class="form-row">
+    <div class="col-7">
+    <label class="form-check-label" for="defaultCheck1">
+    Card Number:
+  </label>
+      <input type="Number" class="form-control">
+</div>
+    <div class="col">
+    <label class="form-check-label" for="defaultCheck1">
+    Zip Code:
+  </label>
+      <input type="Number" class="form-control"> 
+    </div>
+    <div class="col">
+    <label class="form-check-label" for="defaultCheck1">
+    CVV:
+  </label>
+    <input type="Number" class="form-control">
+    </div>
+</div>
+    <div class="form-row">
+    <div class="col-7">
+    <label class="form-check-label" for="defaultCheck1">
+    Expiration Date:
+  </label>
+       <select class="custom-select mr-sm-2">
+       <option selected>1-January</option>
+       <option value="1">2-February</option>
+       <option value="2">3-March</option>
+       <option value="3">4-April</option>
+       <option value="4">5-May</option>
+       <option value="5">6-June</option>
+       <option value="6">7-July</option>
+       <option value="7">8-August</option>
+       <option value="8">9-September</option>
+       <option value="9">10-October</option>
+       <option value="10">11-November</option>
+       <option value="11">12-December</option>
+       </select>
+     </div>
+  
+  <form class="form-row align-items-center">
+      <div class= "col-3">
+      <select class="custom-select my-4 mr-sm-2">
+      <option selected>2019</option>
+      <option value="1">2020</option>
+      <option value="2">2021</option>
+      <option value="3">2022</option>
+  </select>
+    </div>
+  </div>
+  <div class="col-auto my-1">
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </div>
+  </div> 
+   </form>
+  </div>
+</form>
+     </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
         <button type="button" class="btn btn-primary">Save changes</button>
