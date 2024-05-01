@@ -1,0 +1,38 @@
+
+/* Body styling */
+body {
+  background: #b8e2f4;
+  
+  font-family: serif;, Georgia ;
+  font-size: 15px;
+  font-weight: 100;
+}
+
+
+/* Heading Styles */
+h1 {
+  font-size: 50px;
+  display: block;
+  color: #241571;
+  text-align: center;
+ }
+
+
+h2 {
+  font-size: 45px;
+  color: #2832c2;      
+}
+
+
+/* Speaker */
+p {
+  font-size: 15px;
+  color: #1B4B43;
+}
+
+
+
+
+
+
+  
